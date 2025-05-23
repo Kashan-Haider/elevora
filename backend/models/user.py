@@ -1,9 +1,6 @@
-from sqlalchemy import (
-    Column, String, DateTime
-)
+from sqlalchemy import Column, String, DateTime
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
-from db.base import Base
 from db.base import Base, default_uuid, now
 
 class User(Base):
@@ -14,4 +11,5 @@ class User(Base):
     password_hash = Column(String, nullable=False)
     created_at = Column(DateTime, default=now)
 
-    projects = relationship("Project", back_populates="user", cascade="all, delete")
+    # Relationship with projects - cascade delete
+    projects = relationship("Project", back_populates="user", cascade="all, delete-orphan", lazy="joined")
