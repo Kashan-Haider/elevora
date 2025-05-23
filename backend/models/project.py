@@ -12,7 +12,6 @@ class Project(Base):
     domain = Column(String, nullable=False)
     created_at = Column(DateTime, default=now)
 
-    # Relationships with cascade delete
     user = relationship("User", back_populates="projects")
     pages = relationship("Page", back_populates="project", cascade="all, delete-orphan", lazy="joined")
     keywords = relationship("Keyword", back_populates="project", cascade="all, delete-orphan", lazy="joined")
