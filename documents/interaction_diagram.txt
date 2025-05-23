@@ -1,0 +1,215 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="User Content Workflow" id="interaction-elevora-user">
+    <mxGraphModel dx="1043" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Title -->
+        <mxCell id="title" value="Elevora - User Content Workflow Interaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="560" height="30" as="geometry"/>
+        </mxCell>
+        
+        <!-- Actors/Systems -->
+        <mxCell id="userActor" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="30" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="contentEditorSystem" value="Content Editor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="aiServiceSystem" value="AI Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="nlpModelSystem" value="NLP Model&#xa;(LangChain + Gemini LLM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uiFeedbackSystem" value="UI Feedback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Lifelines -->
+        <mxCell id="userLifeline" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="userActor">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="680" as="sourcePoint"/>
+            <mxPoint x="95" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="contentEditorLifeline" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="contentEditorSystem">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="680" as="sourcePoint"/>
+            <mxPoint x="299.5" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="aiServiceLifeline" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="aiServiceSystem">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="680" as="sourcePoint"/>
+            <mxPoint x="539.5" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="nlpModelLifeline" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="nlpModelSystem">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="680" as="sourcePoint"/>
+            <mxPoint x="799.5" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="uiFeedbackLifeline" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="uiFeedbackSystem">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="680" as="sourcePoint"/>
+            <mxPoint x="1019.5" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Activations -->
+        <mxCell id="userActivation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="10" height="400" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="contentEditorActivation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="295" y="220" width="10" height="340" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="aiServiceActivation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="535" y="250" width="10" height="270" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="nlpModelActivation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="795" y="280" width="10" height="190" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uiFeedbackActivation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="500" width="10" height="100" as="geometry"/>
+        </mxCell>
+        
+        <!-- Messages -->
+        <mxCell id="message1" value="1. Opens content editor" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="userActivation1" target="contentEditorActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="220" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="185" y="220"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message2" value="2. Writes/edits content" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="250" as="sourcePoint"/>
+            <mxPoint x="295" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message3" value="3. Request real-time analysis" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="contentEditorActivation1" target="aiServiceActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="250" as="sourcePoint"/>
+            <mxPoint x="440" y="250" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="398" y="250"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message4" value="4. Process content via NLP" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aiServiceActivation1" target="nlpModelActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="280" as="sourcePoint"/>
+            <mxPoint x="685" y="280" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="655" y="280"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="nlpSelfCall1" value="5. Analyze content with&#xa;LLM models" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="310" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="835" y="310"/>
+              <mxPoint x="835" y="340"/>
+            </Array>
+            <mxPoint x="805" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="nlpSelfCall2" value="6. Identify keywords &amp; &#xa;optimization opportunities" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="370" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="835" y="370"/>
+              <mxPoint x="835" y="400"/>
+            </Array>
+            <mxPoint x="805" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message5" value="7. Return optimization suggestions" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="nlpModelActivation1" target="aiServiceActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="470" as="sourcePoint"/>
+            <mxPoint x="545" y="470" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="668" y="470"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="aiSelfCall1" value="8. Process suggestions for&#xa;presentation" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="480" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="575" y="480"/>
+              <mxPoint x="575" y="500"/>
+            </Array>
+            <mxPoint x="545" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message6" value="9. Send real-time feedback" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aiServiceActivation1" target="uiFeedbackActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="500" as="sourcePoint"/>
+            <mxPoint x="940" y="500" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="790" y="500"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message7" value="10. Display feedback to user" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="uiFeedbackActivation1" target="contentEditorActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="531" as="sourcePoint"/>
+            <mxPoint x="700" y="530" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="643" y="530"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message8" value="11. View optimization suggestions" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="contentEditorActivation1" target="userActivation1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="560" as="sourcePoint"/>
+            <mxPoint x="185" y="560" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="243" y="560"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="message9" value="12. Apply suggested changes" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="590" as="sourcePoint"/>
+            <mxPoint x="295" y="590" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="note1" value="Note: The system provides real-time SEO optimization feedback via&#xa;LangChain orchestration and Gemini LLM as the user creates content" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="320" height="60" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

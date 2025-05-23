@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "domain": "www.pluralsight.com",
+    "base_url": "https://www.pluralsight.com/resources/blog?q=&unified-tags=tech-operations",
+    "date": "2025-05-15T11:47:19.988393",
+    "pages_audited": 1
+  },
+  "overall_score": {
+    "percentage": 52.0,
+    "score": 78,
+    "max_score": 150
+  },
+  "category_scores": [
+    {
+      "category": "metadata",
+      "score": 12,
+      "max_score": 30,
+      "percentage": 40.0
+    },
+    {
+      "category": "content",
+      "score": 18,
+      "max_score": 40,
+      "percentage": 45.0
+    },
+    {
+      "category": "media",
+      "score": 10,
+      "max_score": 15,
+      "percentage": 66.7
+    },
+    {
+      "category": "technical",
+      "score": 16,
+      "max_score": 35,
+      "percentage": 45.7
+    },
+    {
+      "category": "links",
+      "score": 17,
+      "max_score": 20,
+      "percentage": 85.0
+    },
+    {
+      "category": "international",
+      "score": 5,
+      "max_score": 10,
+      "percentage": 50.0
+    }
+  ],
+  "page_scores": [
+    {
+      "url": "https://www.pluralsight.com/resources/blog?q=&unified-tags=tech-operations",
+      "score": 78,
+      "max_score": 150,
+      "percentage": 52.0
+    }
+  ],
+  "issues_by_category": {
+    "metadata": {
+      "title": [
+        {
+          "recommendation": "Title is too short, aim for 30-60 characters",
+          "count": 1
+        }
+      ],
+      "meta_description": [
+        {
+          "recommendation": "Add a meta description",
+          "count": 1
+        }
+      ],
+      "other_meta_tags": []
+    },
+    "content": {
+      "headings": [
+        {
+          "recommendation": "Add an H1 tag that includes your primary keyword",
+          "count": 1
+        }
+      ],
+      "content_quality": [
+        {
+          "recommendation": "Improve text to HTML ratio, aim for at least 15%",
+          "count": 1
+        }
+      ],
+      "keyword_optimization": [
+        {
+          "recommendation": "Include main keywords in the H1 heading",
+          "count": 1
+        },
+        {
+          "recommendation": "Aim for keyword density between 1.5-2.5% for primary keywords",
+          "count": 1
+        }
+      ]
+    },
+    "media": {
+      "images": [],
+      "videos_and_audio": [
+        {
+          "recommendation": "Consider adding multimedia content for engagement",
+          "count": 1
+        }
+      ]
+    },
+    "technical": {
+      "structured_data": [
+        {
+          "recommendation": "Add structured data like Schema.org markup",
+          "count": 1
+        }
+      ],
+      "mobile_friendly": [],
+      "page_speed_indicators": [
+        {
+          "recommendation": "Use preload/prefetch resource hints for critical resources",
+          "count": 1
+        },
+        {
+          "recommendation": "Use preconnect/dns-prefetch for external domains",
+          "count": 1
+        },
+        {
+          "recommendation": "Optimize page size, currently over 200KB",
+          "count": 1
+        }
+      ],
+      "security": []
+    },
+    "links": {
+      "internal_links": [],
+      "external_links": [
+        {
+          "recommendation": "Consider using nofollow for appropriate external links",
+          "count": 1
+        }
+      ],
+      "canonical": [
+        {
+          "recommendation": "Canonical URL doesn't match page URL, verify this is intentional",
+          "count": 1
+        }
+      ]
+    },
+    "international": {
+      "language": [],
+      "hreflang": []
+    }
+  },
+  "issues_by_occurrence": [
+    {
+      "category": "metadata",
+      "element": "title",
+      "recommendation": "Title is too short, aim for 30-60 characters",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "metadata",
+      "element": "meta_description",
+      "recommendation": "Add a meta description",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "content",
+      "element": "headings",
+      "recommendation": "Add an H1 tag that includes your primary keyword",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "content",
+      "element": "content_quality",
+      "recommendation": "Improve text to HTML ratio, aim for at least 15%",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "content",
+      "element": "keyword_optimization",
+      "recommendation": "Include main keywords in the H1 heading",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "content",
+      "element": "keyword_optimization",
+      "recommendation": "Aim for keyword density between 1.5-2.5% for primary keywords",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "media",
+      "element": "videos_and_audio",
+      "recommendation": "Consider adding multimedia content for engagement",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "technical",
+      "element": "structured_data",
+      "recommendation": "Add structured data like Schema.org markup",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "technical",
+      "element": "page_speed_indicators",
+      "recommendation": "Use preload/prefetch resource hints for critical resources",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    },
+    {
+      "category": "technical",
+      "element": "page_speed_indicators",
+      "recommendation": "Use preconnect/dns-prefetch for external domains",
+      "occurrence_count": 1,
+      "percentage": 100.0
+    }
+  ],
+  "recommendations_by_severity": {
+    "critical": [
+      {
+        "category": "metadata",
+        "element": "meta_description",
+        "score_percentage": 0.0,
+        "recommendations": [
+          "Add a meta description"
+        ]
+      },
+      {
+        "category": "media",
+        "element": "videos_and_audio",
+        "score_percentage": 0.0,
+        "recommendations": [
+          "Consider adding multimedia content for engagement"
+        ]
+      },
+      {
+        "category": "technical",
+        "element": "structured_data",
+        "score_percentage": 0.0,
+        "recommendations": [
+          "Add structured data like Schema.org markup"
+        ]
+      },
+      {
+        "category": "international",
+        "element": "hreflang",
+        "score_percentage": 0.0,
+        "recommendations": []
+      },
+      {
+        "category": "technical",
+        "element": "page_speed_indicators",
+        "score_percentage": 10.0,
+        "recommendations": [
+          "Use preload/prefetch resource hints for critical resources",
+          "Use preconnect/dns-prefetch for external domains",
+          "Optimize page size, currently over 200KB"
+        ]
+      }
+    ],
+    "important": [
+      {
+        "category": "content",
+        "element": "headings",
+        "score_percentage": 33.3,
+        "recommendations": [
+          "Add an H1 tag that includes your primary keyword"
+        ]
+      },
+      {
+        "category": "metadata",
+        "element": "title",
+        "score_percentage": 40.0,
+        "recommendations": [
+          "Title is too short, aim for 30-60 characters"
+        ]
+      },
+      {
+        "category": "content",
+        "element": "content_quality",
+        "score_percentage": 46.7,
+        "recommendations": [
+          "Improve text to HTML ratio, aim for at least 15%"
+        ]
+      }
+    ],
+    "moderate": [
+      {
+        "category": "content",
+        "element": "keyword_optimization",
+        "score_percentage": 60.0,
+        "recommendations": [
+          "Aim for keyword density between 1.5-2.5% for primary keywords",
+          "Include main keywords in the H1 heading"
+        ]
+      },
+      {
+        "category": "links",
+        "element": "canonical",
+        "score_percentage": 60.0,
+        "recommendations": [
+          "Canonical URL doesn't match page URL, verify this is intentional"
+        ]
+      }
+    ],
+    "minor": [
+      {
+        "category": "metadata",
+        "element": "other_meta_tags",
+        "score_percentage": 80.0,
+        "recommendations": []
+      },
+      {
+        "category": "links",
+        "element": "external_links",
+        "score_percentage": 80.0,
+        "recommendations": [
+          "Consider using nofollow for appropriate external links"
+        ]
+      },
+      {
+        "category": "media",
+        "element": "images",
+        "score_percentage": 100.0,
+        "recommendations": []
+      },
+      {
+        "category": "technical",
+        "element": "mobile_friendly",
+        "score_percentage": 100.0,
+        "recommendations": []
+      },
+      {
+        "category": "technical",
+        "element": "security",
+        "score_percentage": 100.0,
+        "recommendations": []
+      },
+      {
+        "category": "links",
+        "element": "internal_links",
+        "score_percentage": 100.0,
+        "recommendations": []
+      },
+      {
+        "category": "international",
+        "element": "language",
+        "score_percentage": 100.0,
+        "recommendations": []
+      }
+    ]
+  },
+  "time_series": {
+    "timestamp": 1747291639.988576,
+    "score": 52.0
+  }
+}

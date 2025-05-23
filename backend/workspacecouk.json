@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "domain": "www.workspace.co.uk",
+    "base_url": "https://www.workspace.co.uk/content-hub/business-insight/20-top-uk-based-technology-blogs",
+    "date": "2025-05-15T12:37:57.282320",
+    "pages_audited": 0
+  },
+  "overall_score": {
+    "percentage": 0,
+    "score": 0,
+    "max_score": 100
+  },
+  "category_scores": [],
+  "page_scores": [],
+  "issues_by_category": {},
+  "issues_by_occurrence": [],
+  "recommendations_by_severity": {},
+  "time_series": {
+    "timestamp": 1747294677.282335,
+    "score": 0
+  }
+}
