@@ -1,0 +1,11 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.environ["ACCESS_TOKEN_EXPIRE_MINUTES"])
+REFRESH_TOKEN_EXPIRE_MINUTES = int(os.environ["REFRESH_TOKEN_EXPIRE_MINUTES"])
+ALGORITHM = os.environ["ALGORITHM"]
+JWT_SECRET_KEY = os.environ["JWT_SECRET_KEY"]
+JWT_SECRET_KEY_FOR_CHATBOT = os.environ["JWT_SECRET_KEY_FOR_CHATBOT"]
+JWT_REFRESH_SECRET_KEY = os.environ["JWT_REFRESH_SECRET_KEY"]

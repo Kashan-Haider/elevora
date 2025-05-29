@@ -1,14 +1,55 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #0f1923;
-  --color-secondary: #1a2634;
-  --color-primaryText: #ffffff;
-  --color-secondaryText: #b0b7c3;
-  --color-primaryAccent: #00e5ff;
-  --color-secondaryAccent: #7b42f6;
-  --color-success: #2ce5a7;
-  --color-warning: #ffb800;
-  --color-error: #ff4757;
-  --font-poppins: "Poppins", sans-serif;
+  --color-primary: #0a0e13;
+  --color-secondary: #1a1f26;
+  
+  /* Text Colors - High contrast with warm undertones */
+  --color-primaryText: #f8fafc;
+  --color-secondaryText: #94a3b8;
+  
+  /* Accent Colors - Vibrant but balanced */
+  --color-primaryAccent: #3b82f6;    /* Modern blue */
+  --color-secondaryAccent: #8b5cf6;   /* Purple complement */
+  
+  /* Status Colors - Refined and accessible */
+  --color-success: #10b981;          /* Emerald green */
+  --color-warning: #f59e0b;          /* Amber orange */
+  --color-error: #ef4444;            /* Clean red */
+  
+  /* Additional utility colors for depth */
+  --color-surface: #111827;          /* Card/component backgrounds */
+  --color-border: #374151;           /* Subtle borders */
+  --color-muted: #6b7280;           /* Disabled/muted elements */
+  --color-accent-hover: #2563eb;     /* Hover state for primary accent */
+  --color-accent-secondary-hover: #7c3aed; /* Hover state for secondary accent */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1f2937; /* gray-800 */
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b5563; /* gray-600 */
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* gray-500 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: #1f2937;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937;
 }
